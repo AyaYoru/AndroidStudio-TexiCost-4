@@ -17,16 +17,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button)findViewById(R.id.b1);
+        Button button = (Button)findViewById(R.id.button1);
         button.setOnClickListener(the_texi);
     }
     private View.OnClickListener the_texi = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             DecimalFormat nf = new DecimalFormat("0");
-            EditText findcount = (EditText)findViewById(R.id.e1);
-            EditText findcount1 = (EditText)findViewById(R.id.e2);
-            EditText findcount2 = (EditText)findViewById(R.id.e3);
+            EditText findcount = (EditText)findViewById(R.id.edit1);
+            EditText findcount1 = (EditText)findViewById(R.id.edit2);
+            EditText findcount2 = (EditText)findViewById(R.id.edit3);
 
             int basic = 75;
             double distance = Double.parseDouble(findcount.getText().toString());
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             double addCost = Double.parseDouble(findcount2.getText().toString());
             double count = basic + ((distance / basicCount) * addCost);
 
-            TextView cost = (TextView)findViewById(R.id.t4);
+            TextView cost = (TextView)findViewById(R.id.textV4);
             if (distance < 250){
                 cost.setText("80 元");
             }
