@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/t1"
+        android:id="@+id/textV1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/t2"
+        android:id="@+id/textV2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -53,7 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/t1" />
 
     <TextView
-        android:id="@+id/t3"
+        android:id="@+id/textV3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -66,7 +66,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/t4"
+        android:id="@+id/textV4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/t5"
+        android:id="@+id/textV5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
@@ -92,7 +92,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/t6"
+        android:id="@+id/textV6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="205dp"
@@ -105,7 +105,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/t7"
+        android:id="@+id/textV7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="330dp"
@@ -132,7 +132,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e1"
+        android:id="@+id/edit1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
@@ -146,7 +146,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e2"
+        android:id="@+id/edit2"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
@@ -160,7 +160,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/e3"
+        android:id="@+id/edit3"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
@@ -169,11 +169,11 @@
         android:textAlignment="center"
         android:textColor="#A32E2E"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/t6"
+        app:layout_constraintStart_toEndOf="@+id/textV6"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="430dp"
